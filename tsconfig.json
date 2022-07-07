@@ -1,0 +1,8 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "outDir": "build",
+    // "target" 으로 컴파일될 자바스크립트 버전을 설정해 줄 수 있다.
+    "target": "ES6"
+  }
+}

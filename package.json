@@ -1,0 +1,19 @@
+{
+  "name": "ts-blockchain",
+  "version": "1.0.0",
+  "description": "Typescript-BlockChain",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlghgus5656/TS-BlockChain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dlghgus5656/TS-BlockChain/issues"
+  },
+  "homepage": "https://github.com/dlghgus5656/TS-BlockChain#readme"
+}
