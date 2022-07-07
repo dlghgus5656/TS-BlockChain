@@ -10,10 +10,14 @@
 
 // localStorage.setItem();
 
-import { init, exit } from "myPackage";
+import { init, exit } from "./myPackage";
 
-init({
-  url: "true",
-});
+init();
 
-exit(1);
+// init({
+//   url: "true",
+// });
+
+// exit(1);
+
+// localStorage.clear();
