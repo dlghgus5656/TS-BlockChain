@@ -1,6 +1,7 @@
 {
   "include": ["src"],
   "compilerOptions": {
+    // outDir 타입스크립트에서 컴파일된 다음 생성할 자바스크립트 파일 위치
     "outDir": "build",
     // "target" 으로 컴파일될 자바스크립트 버전을 설정해 줄 수 있다.
     "target": "ES6",
