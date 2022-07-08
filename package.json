@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Typescript-BlockChain",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "start": "node build/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/dlghgus5656/TS-BlockChain/issues"
   },
-  "homepage": "https://github.com/dlghgus5656/TS-BlockChain#readme"
+  "homepage": "https://github.com/dlghgus5656/TS-BlockChain#readme",
+  "devDependencies": {
+    "@types/node": "^18.0.3",
+    "ts-node": "^10.8.2"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.19"
+  }
 }

@@ -8,8 +8,11 @@
     // lib는 합쳐진 라이브러리의 정의 파일을 특정해주는 역할을 함
     // 브라우저 위에서 실행한다고 정의할땐 DOM을 써준다.
     // DOM을 쓰지않으면 타입스크립트는 document같은 브라우저 api를 사용하지 못한다.
-    "lib": ["ES6", "DOM"],
+    // "lib": ["ES6", "DOM"],
+    "lib": ["ES6"],
     "strict": true,
-    "allowJs": true
+    // "allowJs": true,
+    "esModuleInterop": true,
+    "module": "CommonJS"
   }
 }
